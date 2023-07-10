@@ -1,0 +1,52 @@
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-size: 14px;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 26px;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 25px;
+  border: 0;
+  background: #e55473;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Header Section Styles */
+.banner {
+  height: 100vh;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 0 150px;
+}
+.banner-content,
+.banner-img {
+  width: 50%;
+}
+
+.banner-title {
+  color: #272727;
+  font-size: 50px;
+  font-weight: 900;
+}
+.banner-desc {
+  margin: 25px 0;
+}
+.banner-img {
+  align-self: flex-end;
+}
+.banner-img img {
+  width: 100%;
+  margin-bottom: -4px;
+}
