@@ -117,3 +117,20 @@ p {
   margin-top: 80px;
   margin-bottom: -3px;
 }
+
+/* Hot Deal Section Styles */
+.hot-deal {
+  background: rgba(229, 84, 115, 0.05);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 140px;
+  padding: 80px 200px;
+}
+.hot-deal-content {
+  text-align: center;
+}
+.pink-highlight {
+    color: #e55473;
+}
