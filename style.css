@@ -126,11 +126,24 @@ p {
   justify-content: center;
   align-items: center;
   gap: 140px;
-  padding: 80px 200px;
+  padding: 70px 200px;
 }
 .hot-deal-content {
   text-align: center;
 }
 .pink-highlight {
-    color: #e55473;
+  color: #e55473;
+}
+
+/* Instagram Section Styles */
+.instagram {
+  text-align: center;
+  margin: 80px 150px;
+}
+.images {
+  display: flex;
+  gap: 20px;
+}
+.images img {
+  width: 25%;
 }
