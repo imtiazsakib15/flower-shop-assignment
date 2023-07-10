@@ -47,7 +47,6 @@ p {
 .banner-img {
   width: 50%;
 }
-
 .banner-title {
   color: #272727;
   font-size: 50px;
@@ -119,6 +118,22 @@ p {
   height: 300px;
   margin-top: 80px;
   margin-bottom: -3px;
+}
+
+/* Service Section Styles */
+.service {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 120px 150px;
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  padding: 50px;
+}
+.service .section-desc {
+  color: rgba(39, 39, 39, 0.8);
+  font-weight: 700;
+  margin: 12px 0 0;
 }
 
 /* Hot Deal Section Styles */
