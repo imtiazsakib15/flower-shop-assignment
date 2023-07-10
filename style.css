@@ -30,6 +30,9 @@ p {
   color: rgba(39, 39, 39, 0.6);
   margin-bottom: 28px;
 }
+.pink-highlight {
+  color: #e55473;
+}
 
 /* Header Section Styles */
 .banner {
@@ -131,9 +134,6 @@ p {
 .hot-deal-content {
   text-align: center;
 }
-.pink-highlight {
-  color: #e55473;
-}
 
 /* Instagram Section Styles */
 .instagram {
@@ -160,9 +160,26 @@ p {
 }
 input[type="email"] {
   width: 70%;
-  font-size: 16px;
+  font-size: 15px;
   padding: 17px 25px;
   border: 0;
   border-radius: 8px;
   margin-right: 10px;
+}
+
+/* Footer Section Styles */
+.footer {
+  background: #111010;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 100px;
+  text-align: center;
+}
+.footer-desc {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+}
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  margin-top: 24px;
 }
